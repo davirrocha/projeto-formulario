@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+body{
+    background-color: #BEE3DB;
+}
+
+header{
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 45px;
+    text-align: center;
+    background-color: #A4B8C4;
+    height: 100px;
+    cursor: pointer;
+
+}
+
+.title-page{
+    font-family: "Anta", sans-serif;
+    color: #FCFAFA
+}
+
+h2{
+    font-size: 55px;
+    font-weight: 400;
+}
+
+.text{
+    font-size: 30px;
+    font-weight: 200;
+    margin: 15px 0
+}
+
+button{
+   
+    border-radius: 35px;
+    color: #BEE3DB;
+    background-color: #555B6E;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.button-login{
+width: 145px;
+height: 45px;
+font-size: 21px;
+}
+
+.button-cadastro{
+    width: 180px;
+    height: 50px;
+    font-size: 21px;
+}
+
+.all{
+    margin-top: 175px;
+    text-align: center;
+
+}
+.login{
+display: inline-block;
+margin-right: 130px;
+text-align: left;
+}
+
+.cadastro{
+    display: inline-block;
+    text-align: left;
+}
+

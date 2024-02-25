@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anta&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
+        rel="stylesheet">
+    <link rel="icon" href="./img/logo.jpg">
+    <title>Cadastro</title>
+</head>
+
+<body>
+
+
+    <header>
+
+        <a href="./home.html">
+            <p class="title-page">Fut<br>Camp</p>
+        </a>
+
+    </header>
+
+    <h2 class="first-title">Dados Pessoais</h2>
+    <div class="all cadastro">
+        <form action="" method="get">
+
+            <label for="nome"> Nome Completo:
+                <input type="text" autocomplete="additional-name" id="nome" autofocus>
+
+            </label>
+
+            <br><br>
+
+            <label for="email"> Email:
+                <input type="email" autocomplete="email">
+            </label>
+
+            <br><br>
+
+            <label for="cpf"> CPF:
+                <input type="text" name="cpf" \ pattern="\d{3}\.\d{3}\.\d{3}-\d{2}" \ id="cpf" />
+            </label>
+
+            <br><br>
+
+            <label for="numero"> Celular:
+                <input type="tel" autocomplete="tel">
+            </label>
+
+            <br><br>
+
+            <label for="data"> Data de Aniversário:
+                <input type="date" name="data" id="data">
+
+            </label>
+
+            <br><br>
+
+            <label for="radio">Gênero:
+                <label for="radio">Masculino:</label>
+                <input type="radio" name="radio" id="man" />
+                <label for="radio">Feminino:</label>
+                <input type="radio" name="radio" id="woman" />
+
+            </label>
+
+
+            <br><br>
+
+            <label for="password"> Crie sua <b>Senha:</b>
+                <input type="password" name="password" id="password">
+            </label>
+
+            <br><br>
+
+            <label for="confirm"> Confirme sua <b>Senha:</b>
+                <input type="password" name="conform" id="conform">
+            </label>
+
+
+            <br><br>
+
+            <label for="notifi"> Gostaria de Receber Noticações?
+                <input type="checkbox" name="notificações" id="notifi" class="noti" />
+            </label>
+
+
+
+
+    </div>
+
+    <h2>Time Favorito</h2>
+    <div class="all">
+        <label for="team"> Escolha seu time Favorito:
+            <select name="team" id="team">
+                <option value="Nada">Nenhum</option>
+                <option value="Corinthians">Corinthians</option>
+                <option value="Flamengo">Flamengo</option>
+                <option value="Vasco">Vasco</option>
+                <option value="São Paulo">São Paulo</option>
+                <option value="Palmeiras">Palmeiras</option>
+                <option value="Santos"> Santos</option>
+                <option value="Guarani">Guarani</option>
+            </select>
+
+        </label>
+    </div>
+    <br><br>
+
+    <button type="submit"> Enviar</button>
+
+    </form>
+
+    <footer>
+        <div class="footer"></div>
+    </footer>
+
+</body>
+
+
+
+
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Plus Jakarta Sans", sans-serif;
+    }
+
+    body {
+        background-color: #ffffff;
+    }
+
+    header {
+        font-size: 50px;
+        font-weight: 600;
+        line-height: 55px;
+        text-align: center;
+        background-color: #2176C5;
+        cursor: pointer;
+
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+
+    .title-page {
+        font-family: "Anta", sans-serif;
+        color: #FCFAFA;
+
+    }
+
+
+    h2 {
+        font-size: 35px;
+        font-weight: 600;
+        margin-left: 20px;
+        margin-bottom: 20px;
+        color: #000000;
+    }
+
+    .first-title {
+        margin-top: 25px;
+    }
+
+    .all {
+        margin-left: 45px;
+        margin-bottom: 10px;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 25px;
+        margin-top: 30px;
+        color: #000000;
+
+    }
+
+    input {
+        border-radius: 0px;
+        border: solid 1px #000000;
+
+    }
+
+    .cadastro {
+        margin-bottom: 80px;
+    }
+
+    select {
+        width: 170px;
+        height: 36px;
+        border-radius: 20px;
+        font-size: 15px;
+        font-weight: 700;
+        padding-left: 10px;
+        margin-bottom: 90px;
+        border: solid 1px #000000;
+        cursor: pointer;
+    }
+
+    button {
+        width: 100px;
+        height: 30px;
+        position: absolute;
+        right: 45px;
+        bottom: -200px;
+        border-radius: 20px;
+        border: solid 3px #000000;
+        cursor: pointer;
+    }
+
+    .footer {
+        background-color: #2176C5;
+        height: 110px;
+    }
+
+
+    .noti {
+        width: 15px;
+        height: 12px;
+
+    }
+</style>
+
+
+</html>
